@@ -1,11 +1,10 @@
-""" I WANT TO SEE THE SCATTER DIAGRAM FOR RESIDUAL ERROR TO CHECK THE HOMOSCADASTICITY"""
 import pandas as pd 
 import numpy as np
 import matplotlib.pyplot as plt
 import statsmodels.formula.api as smf
 
 # reading a csv file using pandas library
-wcat=pd.read_csv("C:\\EXCELR\\NOTES WRITTEN\Regression\\wc-at.csv")
+wcat=pd.read_csv("C:\\NOTES WRITTEN\Regression\\wc-at.csv")
 wcat.columns
 wcat.shape
 
